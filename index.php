@@ -219,7 +219,7 @@ footer {
  <h1 id="h11">NCC MANAGEMENT SYSTEM</h1>
 
     <nav>
-    <a href="NCC CHATGPT.php">HOME</a>
+    <a href="index.php">HOME</a>
       <a href="#" onclick="checkLogin('cadets.php')">Cadets</a>
 <a href="#" onclick="checkLogin('events.php')">Events</a>
 <a href="gallery page.html">Gallery</a>

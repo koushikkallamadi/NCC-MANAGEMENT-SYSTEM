@@ -110,7 +110,7 @@ $conn->close();
 </head>
 <body>
     <nav>
-        <a href="NCC CHATGPT.php">Home</a>
+        <a href="index.php">Home</a>
         <a href="cadet_management.php">Cadet Management</a>
         <a href="attendance.php">Attendance</a>
         <a href="events.php">Events</a>
