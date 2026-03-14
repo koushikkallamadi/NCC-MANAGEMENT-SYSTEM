@@ -1,0 +1,12 @@
+.env
+.env.local
+.env.*.local
+node_modules/
+vendor/
+*.log
+.vscode/
+.idea/
+php_errors.log
+composer.lock
+.DS_Store
+Thumbs.db

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery - NCC Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      color: #0047AB;
+      margin-bottom: 30px;
+    }
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .gallery-box {
+      background-color: white;
+      border: 1px solid #ddd;
+      width: calc(33.333% - 20px);
+      box-sizing: border-box;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery-box img {
+      width: 100%;
+      display: block;
+    }
+    .gallery-box:hover {
+      transform: scale(1.03);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    @media (max-width: 800px) {
+      .gallery-box {
+        width: calc(50% - 20px);
+      }
+    }
+    @media (max-width: 500px) {
+      .gallery-box {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>GALLERY PAGE OF JNTUA</h1>
+  <div class="gallery-container">
+    <!-- Each .gallery-box contains one image -->
+    <div class="gallery-box">
+      <img src="https://cdnbbsr.s3waas.gov.in/s307811dc6c422334ce36a09ff5cd6fe71/uploads/bfi_thumb/2022013169-scaled-qc2r3xl9tq5n6lasbcej4t585ze5tong7gt207x4na.jpg" alt="Photo 1">
+    </div>
+    <div class="gallery-box">
+      <img src="https://cdnbbsr.s3waas.gov.in/s307811dc6c422334ce36a09ff5cd6fe71/uploads/bfi_thumb/2022012596-2-scaled-qc2qqaxiq7hyu53hwgb9z8ym2ukk7ojkc09lhs4mva.jpg" alt="Photo 2">
+    </div>
+    <div class="gallery-box">
+      <img src="https://jntuacea.ac.in/images/NCC_Gallery_7.jpg">
+    </div>
+    <div class="gallery-box">
+      <img src="https://jntuacea.ac.in/images/NCC_Gallery_4.jpg" alt="Photo 4">
+    </div>
+    <div class="gallery-box">
+      <img src="https://jntuacea.ac.in/images/NCC_Gallery_8.jpg" alt="Photo 5">
+    </div>
+    <div class="gallery-box">
+      <img src="https://jntuacea.ac.in/images/NCC_Gallery_1.jpg" alt="Photo 6">
+    </div>
+    <div class="gallery-box">
+      <img src="https://cdnbbsr.s3waas.gov.in/s307811dc6c422334ce36a09ff5cd6fe71/uploads/bfi_thumb/2021030838-scaled-qc2m9a6tyx2nywzl5cn1cdqynm7ymaawj126wcvirq.jpg" alt="Photo 7">
+    </div>
+<div class="gallery-box">
+      <img src="https://cdnbbsr.s3waas.gov.in/s307811dc6c422334ce36a09ff5cd6fe71/uploads/bfi_thumb/2021030857-1-scaled-qc2mire8vs1r1d7ysy4lzhnaahi78exgtxvg3stm12.jpg" alt="Photo 8">
+    </div>
+<div class="gallery-box">
+      <img src="https://cdnbbsr.s3waas.gov.in/s307811dc6c422334ce36a09ff5cd6fe71/uploads/bfi_thumb/2022012525-1-scaled-qc2o96ucsnic50jf9fll38iemrstgproexpeke9arq.jpg" alt="Photo 9">
+    </div>
+<div class="gallery-box">
+      <img src="https://jntuacea.ac.in/images/NCC_Gallery_29.jpg" alt="Photo 10">
+    </div>
+<div class="gallery-box">
+      <img src="https://jntuacea.ac.in/images/NCC_Gallery_9.jpg" alt="Photo 11">
+    </div>
+<div class="gallery-box">
+      <img src="https://jntuacea.ac.in/images/NCC_Gallery_3.jpg" alt="Photo 12">
+    </div>
+<div class="gallery-box">
+      <img src="https://jntuacea.ac.in/images/NCC_Gallery_4.jpg" alt="Photo 13">
+    </div>
+    <!-- Add more boxes as needed -->
+  </div>
+</body>
+</html>
