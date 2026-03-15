@@ -82,10 +82,11 @@ A comprehensive web-based platform designed for the **National Cadet Corps (NCC)
 ---
 
 ## 🧩 Default Roles (Testing)
-- **Admin**: admin@example.com / admin123
-- **Officer**: officer@example.com / officer123
-- **Cadet**: cadet@example.com / cadet123
-*(Note: Use the signup page to create new accounts for live testing).*
+You can use the following accounts for testing. It is highly recommended to change these passwords after the first login or use the signup page to create new accounts.
+
+- **Admin**: (As configured in your database)
+- **Officer**: (As configured in your database)
+- **Cadet**: (As configured in your database)
 
 ---
 
