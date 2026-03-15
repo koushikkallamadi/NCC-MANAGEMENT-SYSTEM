@@ -66,12 +66,12 @@ A comprehensive web-based platform designed for the **National Cadet Corps (NCC)
 
 3. **Environment Configuration**:
    - Copy `.env.example` to `.env`.
-   - Update the database credentials:
+   - Update the database credentials in the `.env` file (ensure `.env` is ignored by Git):
      ```env
-     DB_HOST=localhost
-     DB_USER=root
-     DB_PASS=
-     DB_NAME=ncc_db
+     DB_HOST=your_host_name
+     DB_USER=your_db_user
+     DB_PASS=your_db_password
+     DB_NAME=your_db_name
      ```
 
 4. **Run the Project**:
